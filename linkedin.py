@@ -38,7 +38,7 @@ def startExtraction():
     pyautogui.click(buttonStartStractionX, buttonStartStractionY)
 
 navegador = "chromium-browser"
-cuentasLinkedin = (  "luisnajarluisnajargmail", "blaydeswillis19outlook", "mariazajarova", "turuteasado3gmail", "blaydeswillisgmail", "turuteasado2gmail", "dennislarson59gmail", "dermottlynnmcgmail")
+cuentasLinkedin = ( "dennislarson59gmail", "dermottlynnmcgmail", "luisnajarluisnajargmail", "blaydeswillis19outlook", "mariazajarova", "turuteasado3gmail", "blaydeswillisgmail", "turuteasado2gmail" )
 cuenta = []
 
 for i in cuentasLinkedin:
