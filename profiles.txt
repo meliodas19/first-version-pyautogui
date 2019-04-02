@@ -1,0 +1,7 @@
+    alias lt1='chromium-browser --user-data-dir=/home/ubuntu/profiles/dermottlynnmcgmail linkedin.com'
+    alias lt2='chromium-browser --user-data-dir=/home/ubuntu/profiles/corleyroland6gmail linkedin.com'
+    alias lt3='chromium-browser --user-data-dir=/home/ubuntu/profiles/dennislarson59gmail linkedin.com'
+    alias lt4='chromium-browser --user-data-dir=/home/ubuntu/profiles/luisnajeraluisnajeragmail linkedin.com'
+
+
+"dermottlynnmcgmail", "corleyroland6gmail", "dennislarson59gmail", "luisnajeraluisnajeragmail" 
