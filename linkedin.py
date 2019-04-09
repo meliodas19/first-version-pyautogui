@@ -38,7 +38,7 @@ def startExtraction():
     pyautogui.click(buttonStartStractionX, buttonStartStractionY)
 
 navegador = "chromium-browser"
-cuentasLinkedin = ( "turuteasado2gmail", "blaydeswillis19outlook", "mariazajarova", "turuteasado3gmail", "blaydeswillisgmail", "dennislarson59gmail", "dermottlynnmcgmail", "luisnajarluisnajargmail")
+cuentasLinkedin = ("blaydeswillisgmail", "dermottlynnmcgmail", "luisnajarluisnajargmail", "turuteasado2gmail", "blaydeswillis19outlook", "turuteasado3gmail" )
 cuenta = []
 
 for i in cuentasLinkedin:
@@ -56,7 +56,7 @@ def iniciarBot():
         #aqui debo esperar para abrir nuevas instancias
         if contador == 1 or contador == 3 or contador == 5 or contador == 7:
             #aqui deberia esperarlas a que terminen su trabajo
-            time.sleep( 60 * 38  )
+            time.sleep( 60 * 40  )
             #mato las instancias porque usando contador asi se por cual instancia va 
             chromium[contador - 1].kill()
             chromium[contador].kill()
